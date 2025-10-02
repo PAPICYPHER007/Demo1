@@ -1,0 +1,37 @@
+# reunite:
+  # ignoreLint: true
+  # ignoreLinkChecker: true
+extends:
+  - minimal
+links:
+  - href: https://fonts.googleapis.com/css2?family=VT323&display=swap
+  - href: https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap
+seo:
+  title: CBL API
+  description: The Credit Bank API Platform is an internally developed API management and exposure layer that enables Credit Bank to make its financial services available through secure, reliable, and observable APIs.
+navbar:
+  items:
+    - page: Reference/cbl-api-doc.yaml
+      label: API reference
+    - page: Introduction/index.md
+      label: Intro
+    # - page: API/cbl-api-doc-beautified.yaml
+    #   label: API Reference
+
+markdown:
+  toc:
+    depth: 2
+# logo:
+#   image: images/logo.svg
+#   link: /
+logo:
+  image: images/Robust__inc.svg
+  altText: "Display Logo"
+
+footer:
+  copyrightText: Copyright © CreditBank Limited. All rights reserved.
+  items:
+    - page: legal/responsible-use.md
+      label: Responsible Use
+
+

@@ -1,0 +1,11 @@
+{
+  "name": "CBL API",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "redocly build-docs cbl-api-doc.yaml --output ./docs/index.html",
+    "preview": "npx serve ./docs"
+  },
+  "devDependencies": {
+    "@redocly/cli": "^1.16.0"
+  }
+}
